@@ -1,3 +1,4 @@
+
 class StringChallenge1 {
     static String StringChallenge(String str) {
         // code goes here
