@@ -2,7 +2,7 @@
 
 ## String-Challenge-1
 
-StringChallenge1 has the function StringChallenge(str) takes the str parameter being passed and returns a compressed version of the string using the Run-length Encoding algorithm. This algorithm works by taking the occurrence of each repeating character and outputting that number along with a single character of the repeating sequence. The string must not contain any numbers, punctuation, or symbols. 
+StringChallenge1 class has the function StringChallenge(str) takes the str parameter being passed and returns a compressed version of the string using the Run-length Encoding algorithm. This algorithm works by taking the occurrence of each repeating character and outputting that number along with a single character of the repeating sequence. The string must not contain any numbers, punctuation, or symbols. 
 
 ###### Input
 > wwwggopp
@@ -22,7 +22,27 @@ StringChallenge1 has the function StringChallenge(str) takes the str parameter b
 
 ## String-Challenge-2
 
-Have the function StringChallenge(str) take the str parameter being passed which will be two times (each properly formatted with a colon and am or pm) separated by a hyphen and return the total number of minutes between the two times. The time will be in a 12 hour clock format. For example: if str is 9:00am-10:00am then the output should be 60. If str is 1:00pm-11:00am the output should be 1320. Examples Input: "12:30pm-12:00am" Output: 690 Input: "1:23am-1:08am" Output: 1425
+String-Challenge-2 class has the function StringChallenge(str) takes the str parameter being passed which will be two times (each properly formatted with a colon and am or pm) separated by a hyphen and returns the total number of minutes between the two times. The time will be in a 12-hour clock format.
+
+###### Input
+> 9:00am-10:00am
+###### Output
+> 60
+
+###### Input
+> 1:00pm-11:00am
+###### Output
+> 1320
+
+###### Input
+> 12:30pm-12:00am
+###### Output
+> 690
+
+###### Input
+> 1:23am-1:08am
+###### Output
+> 1425
 
 
 ## Array-Challenge
