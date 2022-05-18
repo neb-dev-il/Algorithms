@@ -5,19 +5,6 @@ class Main {
         Scanner s = new Scanner(System.in);
         System.out.println(StringChallenge1.StringChallenge(s.nextLine()));
         System.out.println(StringChallenge2.StringChallenge(s.nextLine()));
-        System.out.println(ArrayChallengeClass.ArrayChallenge(convertToArray(s.nextLine())));
-    }
-
-    private static int[] convertToArray(String nextLine) {
-        nextLine = nextLine.replace("new int[] {", "").replace(",", " ").replace("}", "");
-        String[] stringArray = nextLine.split(" ");
-        int[] intArray = new int[stringArray.length];
-
-        for (int i = 0; i < stringArray.length; i++) {
-            intArray[i] = Integer.parseInt(stringArray[i]);
-        }
-
-        return intArray;
-
+        System.out.println(ArrayChallengeClass.convertToArray(s.nextLine()));
     }
 }
