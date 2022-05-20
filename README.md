@@ -85,7 +85,7 @@ The AlterCaseClass has a function AlterCase(String line) that, given an input se
 
 ## Number-Pairs
 
-The NumberPairsClass has a function NumberPairs(String line). It has given a sorted array of positive integers and a number X. The program prints out all pairs of numbers whose sum is equal to X. The program prints out only unique pairs and the pairs should be in ascending order. For each line of input, program prints to standard output the pairs of numbers that sum to X. It prints the pairs in ascending order (the first number of each pair is less than or equal to the second number). If no pair exists that sums to X, it prints the string NULL.
+The NumberPairsClass has the function NumberPairs(String line). It has given a sorted array of positive integers and a number X. The program prints out all pairs of numbers whose sum is equal to X. The program prints out only unique pairs and the pairs should be in ascending order. For each line of input, the program prints to standard output the pairs of numbers that sum to X. It prints the pairs in ascending order (the first number of each pair is less than or equal to the second number). If no pair exists that sums to X, it prints the string NULL.
 
 ###### Input
 > 1,2,3,4,6;5
