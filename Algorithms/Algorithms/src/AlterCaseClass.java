@@ -5,7 +5,7 @@ import java.nio.charset.StandardCharsets;
 
 class AlterCaseClass {
 
-    private static void AlterCase(String line) throws IOException {
+    static void AlterCase(String line) throws IOException {
 
         InputStreamReader reader = new InputStreamReader(System.in, StandardCharsets.UTF_8);
         BufferedReader in = new BufferedReader(reader);
