@@ -5,8 +5,11 @@
 The StringChallenge1 class has the function StringChallenge(str) takes the str parameter being passed and returns a compressed version of the string using the Run-length Encoding algorithm. This algorithm works by taking the occurrence of each repeating character and outputting that number along with a single character of the repeating sequence. The string must not contain any numbers, punctuation, or symbols. 
 
 ###### Input
+
 > wwwggopp
+
 ###### Output
+
 > 3w2g1o2p
 
 ###### Input
