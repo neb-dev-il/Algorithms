@@ -1,6 +1,6 @@
 # Algorithms
 
-## String-Challenge-1
+## String Challenge 1
 
 The StringChallenge1 class has the function StringChallenge(str) takes the str parameter being passed and returns a compressed version of the string using the Run-length Encoding algorithm. This algorithm works by taking the occurrence of each repeating character and outputting that number along with a single character of the repeating sequence. The string must not contain any numbers, punctuation, or symbols. 
 
@@ -20,7 +20,7 @@ The StringChallenge1 class has the function StringChallenge(str) takes the str p
 > 3w3b1w
 
 
-## String-Challenge-2
+## String Challenge 2
 
 The String-Challenge-2 class has the function StringChallenge(str) takes the str parameter being passed which will be two times (each adequately formatted with a colon and am or pm) separated by a hyphen and returns the total number of minutes between the two times. The time will be in a 12-hour clock format.
 
@@ -45,7 +45,7 @@ The String-Challenge-2 class has the function StringChallenge(str) takes the str
 > 1425
 
 
-## Array-Challenge
+## Array Challenge
 
 The ArrayChallengeClass class has the function ArrayChallenge(arr) takes the array of numbers stored in arr which will contain integers that represent the amount in dollars that a single stock is worth, and return the maximum profit that could have been made by buying stock on day x and selling stock on day y where y > x. For example: if arr is [44, 30, 24, 32, 35, 30, 40, 38, 15] then your program should return 16 because at index 2 the stock was worth $24 and at index 6 the stock was then worth $40, so if you bought the stock at 24 and sold it at 40, you would have made a profit of $16, which is the maximum profit that could have been made with this list of stock prices. If there is no profit that could have been made with the stock prices, then your program should return -1.
 
@@ -69,7 +69,7 @@ The ArrayChallengeClass class has the function ArrayChallenge(arr) takes the arr
 ###### Output
 > 8
 
-## Alter-Case
+## Alter Case
 
 The AlterCaseClass has a function AlterCase(String line) that, given an input sentence, alternates the case of every alphabetic character, starting with uppercase. Spaces and non-alphabetical characters should be added to the final output as-is, i.e. they should not be taken into account when alternating between upper/lowercase. The program reads lines from standard input. Each line contains a sentence. Assume all characters are ASCII. For each sentence from standard input, the program prints to standard output the sentence such that the first character is uppercase, the next character is lowercase and so on.
 
@@ -83,7 +83,7 @@ The AlterCaseClass has a function AlterCase(String line) that, given an input se
 ###### Output
 > ThIs Is SoMe CoDe
 
-## Number-Pairs
+## Number Pairs
 
 The NumberPairsClass has the function NumberPairs(String line). It has given a sorted array of positive integers and a number X. The program prints out all pairs of numbers whose sum is equal to X. The program prints out only unique pairs and the pairs should be in ascending order. For each line of input, the program prints to standard output the pairs of numbers that sum to X. It prints the pairs in ascending order (the first number of each pair is less than or equal to the second number). If no pair exists that sums to X, it prints the string NULL.
 
